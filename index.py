@@ -34,7 +34,7 @@ def showdifficulty(option):
 
 st.markdown("<h1 style='text-align: center; color: green;'>Raw data</h1>", unsafe_allow_html=True)
 
-data = st.cache(pd.read_csv)('db_cleaned.csv')
+data = st.cache(pd.read_csv)('../data/db_cleaned.csv')
 
 st.write(data[:1000])
 
